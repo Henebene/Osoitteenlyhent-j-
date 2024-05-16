@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans:wght@300;600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: 'Sofia Sans', sans-serif;
+    font-weight: 300;
+    background: linear-gradient(to right, #5e9a57 0%, #cccccc 100%);
+    padding: 2em;
+  }
+
+  .page {
+    background-color: #ffffff;
+    border-radius: 0.5em;
+    color: #137107;
+    max-width: 30em;
+    min-width: 15em;
+    margin: 0 auto;
+    padding: 1em;
+  }
+
+  .page p {
+    margin-bottom: 1em;
+  }
+  
+  .page h2 {
+    margin-bottom: 0.5em;
+  }
+  
+  .page a {
+    color: #272643;
+  }
+
+  header {
+    text-align: center;
+    margin-bottom: 1em;    
+  }
+  
+  header h1 {
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+  
+  header div {
+    font-size: 80%;
+    margin-top: -0.5em; 
+  }
+
+  footer {
+    font-size: 80%;
+    text-align: center;
+  }
+  
+  footer hr {
+    border: none;
+    border-top: 1px dashed #66cccc;
+    margin: 1em auto;
+  }
+
+  .form label {
+    font-size: 80%;
+  }
+  
+  .form .url {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form input[type=text] {
+    flex: 1;
+    font-size: 1rem;
+    font-family: monospace;
+    color: #2c698d;
+    padding: 0.5em 0.8em;
+    border: 1px solid #2c698d;
+    border-top-left-radius: 0.25em;
+    border-bottom-left-radius: 0.25em;
+  }
+  
+  .form input[type=text]:focus {
+    background-color: #f0f0f0;
+    outline: none;
+  }
+
+  .buttons{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-top: 0.5rem;
+    place-items: center;
+  }
+
+  .random{
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+  
+  .custom{
+    grid-column: 2/3;
+    grid-row: 1/2;
+  }
+
+  .kliks{
+    grid-column: 1/3;
+    grid-row: 2/3;
+    padding: 1em;
+  }
+
+  .form input[type=submit] {
+    background-color: #378d2c;
+    color: #fff;
+    padding:  1em;
+    text-transform: uppercase;
+    border: none;
+    border-top-right-radius: 0.25em;
+    border-bottom-right-radius: 0.25em;
+    align-self: center;
+    margin: 0.1rem;
+  }
+
+  .code {
+    font-size: 120%;
+    font-weight: bold;
+    text-align: center;
+    padding: 0.25em;
+    border: 1px solid #8d2c2c;
+    border-radius: 0.25em;
+    background-color: #f0f0f0;
+  }
+
+  .code2{
+    font-size: 300%;
+    font-weight: bold;
+    text-align: center;
+    padding: 0.25em;
+    border: 1px solid #8d2c2c;
+    border-radius: 0.25em;
+    background-color: #f0f0f0;
+  }
